@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Ícone na Aba do Navegado -->
+    <link rel="icon" href="./assets/logo_icon.png" />
+    <!-- Fontes utilizadas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Box Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Folhas de estilos -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- SCRIPTS -->
+    <script defer src="./script/hamburguer.js"></script>
+    <script defer src="./script/carrossel.js"></script>
+    <!-- ============= SWIPERJS ======================== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <title>Argos Pulverização</title>
+  </head>
+  <body>
+    <!-- ? ################ HEADER ################## -->
+    <header class="header">
+      <div class="header_logo">
+        <img
+          src="./assets/logo_completa.png"
+          alt="Logo da Argos Pulverização com Drones"
+        />
+      </div>
+      <div class="navbar">
+        <div class="menu_hamburguer" id="menu_hamburguer">
+          <i class="bx bx-menu bx-lg"></i>
+        </div>
+      </div>
+      <div class="menu" id="menu">
+        <div class="menu_btn">
+          <a href="./index.html">Inicio</a>
+        </div>
+
+        <div class="menu_btn">
+          <a href="./servicos.html">Serviços</a>
+        </div>
+      </div>
+      <div class="instagram_desktop">
+        <a href="https://wa.me/5562991197234" target="_blank">
+          <img src="./assets/icones/icon_instagram.png" />
+          <p>Instagram</p>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <!-- ============ CARROSEL INÍCIO ================== -->
+      <!-- Slider main container -->
+      
+      <section class="container_banner">
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="./assets/banners/banner_1.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/banners/banner_2.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/banners/banner_3.png" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <!-- ? ################ BENEFÍCIOS ################## -->
+
+      <section class="container_beneficios">
+        <div class="beneficios_titulo">
+          <h3>Benefícios</h3>
+        </div>
+        <div class="beneficios_lista">
+          <!-- ? ################ BENEFÍCIO 1 -->
+          <div class="beneficio_box">
+            <div class="beneficio_icone">
+              <img src="./assets/icones/icon_precisao.png" />
+            </div>
+            <details class="beneficio_texto">
+              <summary>
+                <h4>Precisão máxima nas camadas mais baixas</h4>
+              </summary>
+              <p>
+                Os drones pulverizadores garantem uma cobertura 1,9 vez maior
+                nas camadas mais baixas (próximas ao solo) da planta.
+              </p>
+            </details>
+          </div>
+          <!-- ? ################ BENEFÍCIO 2 -->
+          <div class="beneficio_box">
+            <div class="beneficio_icone">
+              <img src="./assets/icones/icon_agua.png" />
+            </div>
+            <details class="beneficio_texto">
+              <summary><h4>Redução do consumo de água</h4></summary>
+              <p>
+                Os drones pulverizadores garantem uma cobertura 1,9 vez maior
+                nas camadas mais baixas (próximas ao solo) da planta.
+              </p>
+            </details>
+          </div>
+
+          <!-- ? ################ BENEFÍCIO 3 -->
+          <div class="beneficio_box">
+            <div class="beneficio_icone">
+              <img src="./assets/icones/icon_zero.png" />
+            </div>
+            <details class="beneficio_texto">
+              <summary><h4>ZERO de perdas por esmagamento</h4></summary>
+              <p>
+                As perdas por esmagamento causadas pelas rodas dos tratores são
+                cerca de 5%. Em uma lavoura de soja com produção média de 60
+                sc/ha, isso significa 3sc/ha de perda.
+              </p>
+            </details>
+          </div>
+
+          <!-- ? ################ BENEFÍCIO 4 -->
+          <div class="beneficio_box">
+            <div class="beneficio_icone">
+              <img src="./assets/icones/icon_investimento.png" />
+            </div>
+            <details class="beneficio_texto">
+              <summary><h4>Retorno sobre investimento</h4></summary>
+              <p>
+                Tecnologia que eleva a eficiência da pulverização e garante
+                retorno de investimento.
+              </p>
+            </details>
+          </div>
+
+          <!-- ? ################ BENEFÍCIO 5 -->
+          <div class="beneficio_box">
+            <div class="beneficio_icone">
+              <img src="./assets/icones/icon_terreno.png" />
+            </div>
+            <details class="beneficio_texto">
+              <summary><h4>Agilidade em qualquer terreno</h4></summary>
+              <p>
+                Caso a sua área tenha relevos acentuados, obstáculos, árvores e
+                etc, o drone pode pulverizar sem problemas.
+              </p>
+            </details>
+          </div>
+
+          <!-- ? ################ BENEFÍCIO 6 -->
+          <div class="beneficio_box">
+            <div class="beneficio_icone">
+              <img src="./assets/icones/icon_seguranca.png" />
+            </div>
+            <details class="beneficio_texto">
+              <summary><h4>Segurança no trabalho</h4></summary>
+              <p>
+                Conduzir um drone pelo controle remoto é mais cômodo e seguro
+                que utilizar um trator ao longo do campo.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- ? ########### GRAFICO PULVERIZAÇÃO DINHEIRO ######### -->
+      <section class="container_grafico_pulverizacao">
+        <div class="pulverizacao_titulo">
+          <h5>Gráfico de Pulverização e consumo por Hora</h5>
+        </div>
+        <div class="pulverizacao_tipos">
+          <div class="pulverizacao_box">
+            <img src="./assets/graficos/grafico_aviao.png" />
+            <p>Avião</p>
+          </div>
+          <div class="pulverizacao_box">
+            <img src="./assets/graficos/grafico_trator.png" />
+            <p>Trator</p>
+          </div>
+          <div class="pulverizacao_box">
+            <img src="./assets/graficos/grafico_drone.png" />
+            <p>Drone</p>
+          </div>
+        </div>
+      </section>
+      <!-- ? ########### TABELA COMPARATIVA ######### -->
+      <section class="container_tabela">
+        <div class="tabela_titulo">
+          <p>
+            Confira a tabela comparativa do Drone com outros meios de
+            pulverização.
+          </p>
+        </div>
+        <div class="tabela">
+          <div class="coluna_texto">
+            <h6 class="txt_1">aa</h6>
+            <p class="txt_2">Compatação do Solo</p>
+            <p class="txt_3">Consumo de Água</p>
+            <p class="txt_4">Qualificação do operador</p>
+            <p class="txt_5">Perca por armazenamento</p>
+            <p class="txt_6">Propagação de inóculos (Doenças)</p>
+            <p class="txt_7">Rendimento em área de difícil acesso</p>
+          </div>
+          <div class="coluna_drone">
+            <h6 class="drone_1">Drone</h6>
+            <p class="drone_2">Baixa</p>
+            <p class="drone_3">Baixa</p>
+            <p class="drone_4">Médio</p>
+            <p class="drone_5">Baixa</p>
+            <p class="drone_6">Baixa</p>
+            <p class="drone_7">Alto</p>
+          </div>
+
+          <div class="coluna_trator">
+            <h6 class="trat_1">Trator</h6>
+            <p class="trat_2">Alto</p>
+            <p class="trat_3">Alto</p>
+            <p class="trat_4">Baixo</p>
+            <p class="trat_5">Alta</p>
+            <p class="trat_6">Alto</p>
+            <p class="trat_7">Baixo</p>
+          </div>
+
+          <div class="coluna_aviao">
+            <h6 class="aviao_1">Avião</h6>
+            <p class="aviao_2">Baixa</p>
+            <p class="aviao_3">Alto</p>
+            <p class="aviao_4">Alto</p>
+            <p class="aviao_5">Baixa</p>
+            <p class="aviao_6">Baixo</p>
+            <p class="aviao_7">Baixo</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ? ########### VIDEOS YOUTUBE ######### -->
+      <section class="container_videos">
+        <div class="btn_especialista">
+          <button>
+            <img src="./assets/icones/icon_especialista.png" />
+            <p>Fale com um especialista</p>
+          </button>
+        </div>
+        <div class="video_box">
+          <iframe
+            width="1349"
+            height="510"
+            src="https://www.youtube.com/embed/KUiYOzn3uIQ"
+            title="ARGOS | Prestação de Serviço com Drones Pulverizadores | Depoimento 01#"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <div class="video_texto">
+            <h7
+              >Confira a eficiência da aplicação por drone em uma plantação de
+              banana.</h7
+            >
+            <p>Relato do João</p>
+          </div>
+        </div>
+
+        <div class="video_box">
+          <iframe
+            width="1349"
+            height="510"
+            src="https://www.youtube.com/embed/4X6USPQeIyw"
+            title="Teste de Proporção 16-9 1280x720"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <div class="video_texto">
+            <h7>Produtor fala sobre a redução de perdas por esmagamento</h7>
+            <p>Relato do Sérgio</p>
+          </div>
+        </div>
+      </section>
+      <!-- ? ########### INDICAÇÃO DRONES ######### -->
+      <section class="container_indicacao">
+        <div class="indicacao_titulo">
+          <img src="./assets/logo_icon.png" />
+          <p>O uso de Drones é ideal para:</p>
+        </div>
+        <div class="indicacao_lista">
+          <div class="indicacao_box">
+            <img src="./assets/icones/indicacao_terreno.png" />
+            <p>Terrenos desnivelados</p>
+          </div>
+          <div class="indicacao_box">
+            <img src="./assets/icones/indicacao_perda.png" />
+            <p>Evitar perdas por esmagamento</p>
+          </div>
+          <div class="indicacao_box">
+            <img src="./assets/icones/indicacao_obstaculo.png" />
+            <p>Muitos obstáculos para pulverização</p>
+          </div>
+        </div>
+      </section>
+      <div class="btn_especialista">
+        <button>
+          <img src="./assets/icones/icon_especialista.png" />
+          <p>Fale com um especialista</p>
+        </button>
+      </div>
+
+      <!-- ? ########### DUVIDAS DRONES ######### -->
+      <section class="container_duvidas">
+        <div class="duvidas_titulo">
+          <img src="./assets/icones/icon_duvida.png" />
+          <p>As principais dúvidas sobre Drones são:</p>
+        </div>
+        <div class="duvidas_lista">
+          <div class="duvida_box">
+            <img src="./assets/icones/icon_duvida1.png" />
+            <h8>Autonomia de trabalho.</h8>
+            <p>
+              Com um kit correto de baterias, o drone pode pulverizar 100
+              hectares ao dia.
+            </p>
+          </div>
+          <div class="duvida_box">
+            <img src="./assets/icones/icon_duvida2.png" />
+            <h8>Facilidade de operação.</h8>
+            <p>
+              Atuamos com uma equipe especializada que via ajudar você a operar
+              o seu drone.
+            </p>
+          </div>
+          <div class="duvida_box">
+            <img src="./assets/icones/icon_duvida3.png" />
+            <h8>Manutenções e custo.</h8>
+            <p>
+              Nossa equipe garante sólido apoio a nossos clientes, fornecendo
+              peças de reposição.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer_logo">
+        <img src="./assets/logo_branca.png" />
+      </div>
+      <div class="footer_info">
+        <p>
+          Avenida Transbrasiliana 479 Quadra248 Lote 03 Sala 02 Prq Amazonia
+          Goiânia GO 74835-300
+        </p>
+      </div>
+      <div class="btn_especialista">
+        <button>
+          <img src="./assets/icones/icon_especialista.png" />
+          <p>Fale com um especialista</p>
+        </button>
+      </div>
+      <div class="copyright_desktop">
+        <p>Criado por GAIA Desenvolvimento Web e UX/UI Design.</p>
+      </div>
+    </footer>
+  </body>
+</html>
